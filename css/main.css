@@ -1942,7 +1942,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9eff63;
+  background: #38ff0d;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3069,7 +3069,7 @@ ul.breadcrumb li+li:last-child {
   }
 }
 body {
-  background: url("https://www.transparenttextures.com/patterns/purty-wood.png");
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
