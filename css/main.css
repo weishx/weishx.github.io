@@ -1942,7 +1942,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff16c8;
+  background: #7994ac;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3069,7 +3069,7 @@ ul.breadcrumb li+li:last-child {
   }
 }
 body {
-  background-color: #fff;
-  background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+  background-color: #f3f3f2;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
   background-repeat: repeat;
 }
