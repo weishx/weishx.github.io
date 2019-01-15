@@ -1942,7 +1942,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6a577d;
+  background: #6effb9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3070,7 +3070,4 @@ ul.breadcrumb li+li:last-child {
 }
 body {
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  background-repeat: repeat-no;
-  background-attachment: fixed;
-  background-position: 50% 50%;
 }
