@@ -108,7 +108,7 @@
 <meta property="og:site_name" content="WEISH x LAB">
 <meta property="og:description" content="安装安装前提安装 Hexo 相当简单。然而在安装前，您必须检查电脑中是否已安装下列应用程序：  Node.js Git  如果您的电脑中已经安装上述必备程序，那么恭喜您！接下来只需要使用 npm 即可完成 Hexo 的安装。1$ npm install -g hexo-cli 如果您的电脑中尚未安装所需要的程序，请根据指示完成安装。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-01-15T05:13:44.477Z">
+<meta property="og:updated_time" content="2019-01-15T05:37:36.472Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HEXO配置记录">
 <meta name="twitter:description" content="安装安装前提安装 Hexo 相当简单。然而在安装前，您必须检查电脑中是否已安装下列应用程序：  Node.js Git  如果您的电脑中已经安装上述必备程序，那么恭喜您！接下来只需要使用 npm 即可完成 Hexo 的安装。1$ npm install -g hexo-cli 如果您的电脑中尚未安装所需要的程序，请根据指示完成安装。">
@@ -450,7 +450,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-01-15 13:13:44" itemprop="dateModified" datetime="2019-01-15T13:13:44+08:00">2019-01-15</time>
+                <time title="修改时间：2019-01-15 13:37:36" itemprop="dateModified" datetime="2019-01-15T13:37:36+08:00">2019-01-15</time>
               
             
           </span>
@@ -547,7 +547,7 @@
 <p>安装完成</p>
 <p>点击访问Aplayer源码：<a href="https://github.com/MoePlayer/APlayer" target="_blank" rel="noopener">GitHub Aplayer</a>。下载到本地，解压后将<code>dist</code>文件夹复制到<code>themes\next\source</code>文件夹下。  </p>
 <p><strong>_layout.swig</strong></p>
-<p>打开themes\next\layout_layout.swig文件，将<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;link rel=&quot;stylesheet&quot; href=&quot;/dist/APlayer.min.css&quot;&gt;</span><br><span class="line">&lt;div id=&quot;aplayer&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/APlayer.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/music.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure></p>
+<p>打开themes\next\layout\_layout.swig文件，将<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;link rel=&quot;stylesheet&quot; href=&quot;/dist/APlayer.min.css&quot;&gt;</span><br><span class="line">&lt;div id=&quot;aplayer&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/APlayer.min.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure></p>
 <p>添加到<body itemscope="" ...="">后面就行，即在<body></body>里面。<br>插入格式如下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% aplayer &quot;歌曲名称&quot; &quot;作者&quot; &quot;音乐_url&quot; &quot;封面图片_url&quot; &quot;autoplay&quot; %&#125;</span><br></pre></td></tr></table></figure></body></p>
 <p>像这个<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% aplayer &quot;年少有为&quot; &quot;李荣浩&quot; &quot;https://m7.music.126.net/20190114225313/df0fb709391d55cc76e923a12fb2bed3/ymusic/555c/055f/035a/b6da3ffc8d2561b321284004c81da136.mp3&quot;  &quot;https://p1.music.126.net/tt8xwK-ASC2iqXNUXYKoDQ==/109951163606377163.jpg?param=300y300&quot; &quot;autoplay=false&quot; %&#125;</span><br></pre></td></tr></table></figure></p>
 <div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
@@ -574,7 +574,7 @@
 <li><a href="https://asdfv1929.github.io/2018/05/26/next-add-music/" target="_blank" rel="noopener">https://asdfv1929.github.io/2018/05/26/next-add-music/</a></li>
 <li><a href="http://www.missfli.com/2018/05/27/github-hexo-next-03.html" target="_blank" rel="noopener">http://www.missfli.com/2018/05/27/github-hexo-next-03.html</a></li>
 </ul>
-<h2 id="视频插件"><a href="#视频插件" class="headerlink" title="视频插件"></a>视频插件</h2><p>可以使用<a href="https://github.com/MoePlayer/DPlayer" target="_blank" rel="noopener">DPlayer</a>实现<br>操作说明<a href="http://dplayer.js.org/#/zh-Hans/" target="_blank" rel="noopener">http://dplayer.js.org/#/zh-Hans/</a></p>
+<h2 id="视频插件"><a href="#视频插件" class="headerlink" title="视频插件"></a>视频插件</h2><p>可以使用<a href="https://github.com/MoePlayer/DPlayer" target="_blank" rel="noopener">DPlayer</a>实现<br>操作说明 <a href="http://dplayer.js.org/#/zh-Hans/" target="_blank" rel="noopener">http://dplayer.js.org/#/zh-Hans/</a></p>
 <div id="dplayer0" class="dplayer hexo-tag-dplayer-mark" style="margin-bottom: 20px;"></div><script>(function(){var player = new DPlayer({"container":document.getElementById("dplayer0"),"theme":"#FADFA3","loop":true,"video":{"url":"https://s3.envato.com/h264-video-previews/e692886e-e9c3-4135-9b89-3553898c907f/2046077.mp4","pic":"https://moeplayer.b0.upaiyun.com/dplayer/hikarunara.jpg"},"danmaku":{"id":"9E2E3368B56CDBB4","api":"https://api.prprpr.me/dplayer/","token":"tokendemo","addition":["https://dplayer.daoapp.io/bilibili?aid=4157142"]}});window.dplayers||(window.dplayers=[]);window.dplayers.push(player);})()</script>
 <center><br><iframe height="300" width="90%" src="//player.bilibili.com/player.html?aid=40784421&cid=71631006&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe> </center> 
 
