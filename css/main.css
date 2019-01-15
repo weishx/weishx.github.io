@@ -1942,7 +1942,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #39ff41;
+  background: #603455;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3069,8 +3069,8 @@ ul.breadcrumb li+li:last-child {
   }
 }
 body {
-  background: url("https://source.unsplash.com/random");
-  background-repeat: no-repeat;
+  background: url("https://www.transparenttextures.com/patterns/purty-wood.png");
+  background-repeat: repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
 }
