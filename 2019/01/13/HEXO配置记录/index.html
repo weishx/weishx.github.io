@@ -22,6 +22,10 @@
 <meta name="theme-color" content="#222">
 
 
+  
+  
+  <link rel="stylesheet" href="/lib/needsharebutton/needsharebutton.css">
+
 
 
 
@@ -104,7 +108,7 @@
 <meta property="og:site_name" content="WEISH x LAB">
 <meta property="og:description" content="安装安装前提安装 Hexo 相当简单。然而在安装前，您必须检查电脑中是否已安装下列应用程序：  Node.js Git  如果您的电脑中已经安装上述必备程序，那么恭喜您！接下来只需要使用 npm 即可完成 Hexo 的安装。1$ npm install -g hexo-cli 如果您的电脑中尚未安装所需要的程序，请根据指示完成安装。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-01-17T11:45:20.713Z">
+<meta property="og:updated_time" content="2019-01-17T11:56:09.716Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="HEXO配置记录">
 <meta name="twitter:description" content="安装安装前提安装 Hexo 相当简单。然而在安装前，您必须检查电脑中是否已安装下列应用程序：  Node.js Git  如果您的电脑中已经安装上述必备程序，那么恭喜您！接下来只需要使用 npm 即可完成 Hexo 的安装。1$ npm install -g hexo-cli 如果您的电脑中尚未安装所需要的程序，请根据指示完成安装。">
@@ -446,7 +450,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-01-17 19:45:20" itemprop="dateModified" datetime="2019-01-17T19:45:20+08:00">2019-01-17</time>
+                <time title="修改时间：2019-01-17 19:56:09" itemprop="dateModified" datetime="2019-01-17T19:56:09+08:00">2019-01-17</time>
               
             
           </span>
@@ -587,7 +591,6 @@
 <p>安装 <code>hexo-generator-searchdb</code>，在站点的根目录下执行以下命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure></p>
 <p>编辑 站点配置文件，新增以下内容到任意位置：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure></p>
 <p>编辑 主题配置文件，启用本地搜索功能：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"># Local search</span><br><span class="line">local_search:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure></p>
-<p><!-- Go to www.addthis.com/dashboard to customize your tools --> <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c4067c4e29105e3"></script></p>
 
       
     </div>
@@ -619,6 +622,26 @@
       
 
       
+      
+        <div class="post-widgets">
+        
+
+        
+
+        
+          
+          <div class="social_share">
+            
+            
+              <div id="needsharebutton-postbottom">
+                <span class="btn">
+                  <i class="fa fa-share-alt" aria-hidden="true"></i>
+                </span>
+              </div>
+            
+          </div>
+        
+        </div>
       
       
 
@@ -901,17 +924,15 @@
     
 
     
-
-    
-
-    
-      <div>
-        <!-- Go to www.addthis.com/dashboard to customize your tools -->
-<div class="addthis_inline_share_toolbox">
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c4067c4e29105e3" async="async"></script>
-</div>
-
+      <div id="needsharebutton-float">
+        <span class="btn">
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </span>
       </div>
+    
+
+    
+
     
   </div>
 
@@ -1389,6 +1410,38 @@
 
 
   
+  
+  
+  <script src="/lib/needsharebutton/needsharebutton.js"></script>
+  <script>
+    
+      pbOptions = {};
+      
+        pbOptions.iconStyle = "box";
+      
+        pbOptions.boxForm = "horizontal";
+      
+        pbOptions.position = "bottomCenter";
+      
+        pbOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
+      
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+    
+    
+      flOptions = {};
+      
+        flOptions.iconStyle = "box";
+      
+        flOptions.boxForm = "horizontal";
+      
+        flOptions.position = "middleRight";
+      
+        flOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
+      
+      new needShareButton('#needsharebutton-float', flOptions);
+    
+  </script>
+
 
   
 

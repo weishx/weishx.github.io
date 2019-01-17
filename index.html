@@ -22,6 +22,10 @@
 <meta name="theme-color" content="#222">
 
 
+  
+  
+  <link rel="stylesheet" href="/lib/needsharebutton/needsharebutton.css">
+
 
 
 
@@ -444,7 +448,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-01-17 19:45:20" itemprop="dateModified" datetime="2019-01-17T19:45:20+08:00">2019-01-17</time>
+                <time title="修改时间：2019-01-17 19:56:09" itemprop="dateModified" datetime="2019-01-17T19:56:09+08:00">2019-01-17</time>
               
             
           </span>
@@ -964,17 +968,15 @@ More info: Deployment
     
 
     
-
-    
-
-    
-      <div>
-        <!-- Go to www.addthis.com/dashboard to customize your tools -->
-<div class="addthis_inline_share_toolbox">
-  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c4067c4e29105e3" async="async"></script>
-</div>
-
+      <div id="needsharebutton-float">
+        <span class="btn">
+          <i class="fa fa-share-alt" aria-hidden="true"></i>
+        </span>
       </div>
+    
+
+    
+
     
   </div>
 
@@ -1452,6 +1454,38 @@ More info: Deployment
 
 
   
+  
+  
+  <script src="/lib/needsharebutton/needsharebutton.js"></script>
+  <script>
+    
+      pbOptions = {};
+      
+        pbOptions.iconStyle = "box";
+      
+        pbOptions.boxForm = "horizontal";
+      
+        pbOptions.position = "bottomCenter";
+      
+        pbOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
+      
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+    
+    
+      flOptions = {};
+      
+        flOptions.iconStyle = "box";
+      
+        flOptions.boxForm = "horizontal";
+      
+        flOptions.position = "middleRight";
+      
+        flOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
+      
+      new needShareButton('#needsharebutton-float', flOptions);
+    
+  </script>
+
 
   
 
