@@ -1,4 +1,4 @@
-<script src="/assets/js/APlayer.min.js"> </script>/***********************************************
+<script src="/assets/js/APlayer.min.js"> </script><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css">/***********************************************
   needShareButton
   - Version 1.0.0
   - Copyright 2015 Dzmitry Vasileuski
