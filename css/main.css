@@ -1895,7 +1895,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2a3b52;
+  background: #a4ff05;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3007,6 +3007,10 @@ body {
   padding: 20px 0;
   color: #fff;
   background: #26453d;
+}
+@font-face {
+  font-family: HYQiHei-35S;
+  src: url("https://dev.tencent.com/api/share/download/aacfd744-63da-40f8-803c-33262b6eec16");
 }
 .v .power,
 .v .power a {
