@@ -1895,7 +1895,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffa278;
+  background: #f23d2e;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3007,6 +3007,10 @@ body {
   padding: 20px 0;
   color: #fff;
   background: #26453d;
+}
+@font-face {
+  font-family: HYQiHei;
+  src: url("/fonts/HYQiHei-35S");
 }
 .v .power,
 .v .power a {
