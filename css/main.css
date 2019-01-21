@@ -1895,7 +1895,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #faf2aa;
+  background: #ff7d45;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3060,10 +3060,10 @@ span#inline-purple {
   border-radius: 0;
   background-color: #9954bb;
 }
-@font-face {
-  font-family: HYQiHei-35S;
-  src: url("https://dev.tencent.com/api/share/download/aacfd744-63da-40f8-803c-33262b6eec16");
-}
+.article,
+margin: block-margin 0,
+font-family: SimSun,
+letter-spacing: 1px,
 .v .power,
 .v .power a {
   font-size: 0rem;
