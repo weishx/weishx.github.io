@@ -1899,7 +1899,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b3bb05;
+  background: #ffffd2;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3065,8 +3065,8 @@ span#inline-purple {
   background-color: #9954bb;
 }
 @font-face {
-  font-family: HYQiHei-35S;
-  src: url("https://dev.tencent.com/api/share/download/aacfd744-63da-40f8-803c-33262b6eec16");
+  font-family: Julius Sans One;
+  src: url("https://fonts.googleapis.com/css?family= Julius + Sans + One");
 }
 .site-title {
   display: inline-block;
@@ -3074,5 +3074,5 @@ span#inline-purple {
   line-height: 36px;
   font-size: 20px !important;
   font-weight: normal;
-  font-family: 'HYQiHei-35S' !important;
+  font-family: 'Julius Sans One' !important;
 }
