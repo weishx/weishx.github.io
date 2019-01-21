@@ -1183,7 +1183,7 @@ pre .javascript .function {
   line-height: 36px;
   font-size: 20px;
   font-weight: normal;
-  font-family: 'Helvetica', 'Noto Sans SC', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Neue Helvetica', 'Noto Sans SC', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -1899,7 +1899,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #dbff14;
+  background: #8fdbc6;
 }
 .links-of-blogroll {
   font-size: 13px;
