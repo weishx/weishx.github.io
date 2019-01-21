@@ -187,7 +187,7 @@ body {
   position: relative;
   font-family: 'HYQiHei-35S', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 14px;
-  line-height: 2;
+  line-height: 1.618;
   color: #555;
   background: #f5f7f9;
 }
@@ -1895,7 +1895,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff7d45;
+  background: #67bd32;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3060,10 +3060,6 @@ span#inline-purple {
   border-radius: 0;
   background-color: #9954bb;
 }
-.article,
-margin: block-margin 0,
-font-family: SimSun,
-letter-spacing: 1px,
 .v .power,
 .v .power a {
   font-size: 0rem;
