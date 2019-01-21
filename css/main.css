@@ -1,15 +1,3 @@
-@font-face {
-  font-family: Julius Sans One;
-  src: url("https://fonts.googleapis.com/css?family= Julius + Sans + One");
-}
-.site-title {
-  display: inline-block;
-  vertical-align: top;
-  line-height: 36px;
-  font-size: 20px !important;
-  font-weight: normal;
-  font-family: 'Julius Sans One' !important;
-}
 /* normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif; /* 1 */
@@ -1284,7 +1272,7 @@ pre .javascript .function {
 .post-body {
   overflow-wrap: break-word;
   word-wrap: break-word;
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Quicksand', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .post-body .exturl .fa {
   font-size: 14px;
@@ -1524,7 +1512,7 @@ pre .javascript .function {
   overflow-wrap: break-word;
   word-wrap: break-word;
   text-align: center;
-  font-weight: 400;
+  font-weight: 300;
 }
 .posts-expand .post-title-link {
   display: inline-block;
@@ -1567,7 +1555,7 @@ pre .javascript .function {
 .posts-expand .post-meta {
   margin: 3px 0 60px 0;
   color: #999;
-  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'Quicksand', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
   text-align: center;
 }
@@ -1907,7 +1895,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #cdb939;
+  background: #ffff93;
 }
 .links-of-blogroll {
   font-size: 13px;
