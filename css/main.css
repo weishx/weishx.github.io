@@ -1276,7 +1276,7 @@ pre .javascript .function {
 .post-body {
   overflow-wrap: break-word;
   word-wrap: break-word;
-  font-family: 'Julius Sans One', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'M PLUS 1p | Julius Sans One', "PingFang SC", "Microsoft YaHei", sans-serif;
 }
 .post-body .exturl .fa {
   font-size: 14px;
@@ -1559,7 +1559,7 @@ pre .javascript .function {
 .posts-expand .post-meta {
   margin: 3px 0 60px 0;
   color: #999;
-  font-family: 'Julius Sans One', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-family: 'M PLUS 1p | Julius Sans One', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 12px;
   text-align: center;
 }
@@ -1899,7 +1899,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #90b946;
+  background: #ffd599;
 }
 .links-of-blogroll {
   font-size: 13px;
