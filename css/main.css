@@ -1895,7 +1895,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #bb2666;
+  background: #41cc34;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3004,6 +3004,12 @@ body {
   background-repeat: repeat;
   font-family: 'Barlow', "Microsoft JhengHei", "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 15px;
+}
+.posts-expand .post-body img {
+  box-sizing: border-box;
+  margin: auto;
+  padding: 3px;
+  border: 0px solid #ddd;
 }
 .site-meta {
   padding: 20px 0;
