@@ -1895,7 +1895,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #3b204b;
+  background: #bb2666;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3002,6 +3002,8 @@ body {
   background-color: #f3f3f2;
   background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
   background-repeat: repeat;
+  font-family: 'Barlow', "Microsoft JhengHei", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 15px;
 }
 .site-meta {
   padding: 20px 0;
@@ -3059,12 +3061,4 @@ span#inline-purple {
   vertical-align: baseline;
   border-radius: 0;
   background-color: #9954bb;
-}
-body {
-  position: relative;
-  font-family: 'Barlow', "Microsoft JhengHei", "PingFang SC", "Microsoft YaHei", sans-serif;
-  font-size: 15px;
-  line-height: 1.618;
-  color: #555;
-  background: #f5f7f9;
 }
