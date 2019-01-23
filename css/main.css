@@ -1895,7 +1895,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #be9600;
+  background: #86c8f5;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3010,7 +3010,7 @@ body {
   overflow-wrap: break-word;
   overflow-wrap: break-word;
   word-wrap: break-word;
-  font-family: 'Barlow', "Microsoft JhengHei", "PingFang SC", "Microsoft YaHei", sans-serif !important;
+  font-family: 'Barlow', "PingFang SC", "Microsoft YaHei", sans-serif !important;
 }
 .posts-expand .post-body img {
   box-sizing: border-box;
